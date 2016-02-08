@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   color: #777777
+  float: left;
 }
 
 h1 {
@@ -11,19 +12,30 @@ h1 {
 	background-color: teal;
 	color: white
 
-div {
-	width: 320px;
+#Bio {
+	width: 650px;
 	padding: 10px;
 	border: 5px #777777;
 	margin: 0;
-	float: left;
+	border: solid;
 }
 
-#Bio {
-	border:solid;
-	border-color: #777777
+section {
+	float: right;
 }
 
 footer {
 	background-color: #666666
+}
+
+img	{
+	float: left;
+}
+
+p {
+	float: left;
+}
+
+ul {
+	float: left;
 }
