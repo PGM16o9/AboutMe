@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  color: #777777
+}
+
+h1 {
+	color: teal
+}
+
+#Logo {
+	background-color: teal;
+	color: white
+
+div {
+	width: 320px;
+	padding: 10px;
+	border: 5px #777777;
+	margin: 0;
+	float: left;
+}
+
+#Bio {
+	border:solid;
+	border-color: #777777
+}
+
+footer {
+	background-color: #666666
+}
