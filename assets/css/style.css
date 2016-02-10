@@ -39,3 +39,7 @@ p {
 ul {
 	float: left;
 }
+
+div	{
+	display: block;
+}
