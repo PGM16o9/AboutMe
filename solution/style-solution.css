@@ -213,3 +213,59 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+@media only screen and (max-width: 980px){
+	/* For PCS: */
+	body {
+		background-color: red;
+	}
+	#masthead {
+		max-width: 600px;
+	}
+	#main-container {
+		max-width: 256px;
+		max-height: 517px;
+		float: left;
+		margin: 0 auto;
+		font-size: 12px;
+	}
+	.sidebar {
+		max-width: 165px;
+		max-height: 120px;
+		float: left;
+		margin: 0 auto;
+	}
+	.container {
+		max-width: 600px;
+	}
+	h1 {
+		font-size: 22px;
+	}
+	h2 {
+		font-size: 16px;
+	}
+	.social {
+		width: 38px;
+		height: 38px;
+	}
+	#logo {
+		font-size: 20px;
+		max-width: 152px;
+	}
+	nav {
+		font-size: 12px;
+		max-width: 157px;
+		margin-right: 2px;
+	}
+}
+@media only screen and (max-width: 768px){
+	/* For Tablets: */
+	body {
+		background-color: blue;
+	}	
+}
+@media only screen and (max-width: 640px){
+	/* For Phones: */
+	body {
+		background-color: green;
+	}	
+}
