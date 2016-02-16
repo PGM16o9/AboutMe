@@ -223,7 +223,6 @@ input[type=submit] {
 	}
 	#main-container {
 		max-width: 256px;
-		max-height: 517px;
 		float: left;
 		margin: 0 auto;
 		font-size: 12px;
@@ -234,7 +233,7 @@ input[type=submit] {
 		float: left;
 		margin: 0 auto;
 	}
-	.container {
+	footer {
 		max-width: 600px;
 	}
 	h1 {
@@ -253,8 +252,7 @@ input[type=submit] {
 	}
 	nav {
 		font-size: 12px;
-		max-width: 157px;
-		margin-right: 2px;
+		max-width: 160px;
 	}
 }
 @media only screen and (max-width: 768px){
@@ -262,6 +260,33 @@ input[type=submit] {
 	body {
 		background-color: blue;
 	}	
+	#main-container {
+		max-width: 565px;
+		font-size: 14px;
+	} 
+	h1 {
+		font-size: 24px;
+	}
+	#masthead {
+		max-width: 565px;
+	}
+	.sidebar {
+		max-width: 565px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	footer {
+		max-width: 565px;
+	}
+	#logo {
+		max-width: 195px;
+		font-size: 23px;
+	}
+	nav {
+		max-width: 200px;
+		font-size: 14px;
+	}
 }
 @media only screen and (max-width: 640px){
 	/* For Phones: */
